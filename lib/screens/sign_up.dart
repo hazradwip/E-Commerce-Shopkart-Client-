@@ -181,7 +181,7 @@ class _SignUpState extends State<SignUp> {
         ),
       ),
     );
-    return const Center(child: CircularProgressIndicator());
+
   }
 
   /*void submit() {

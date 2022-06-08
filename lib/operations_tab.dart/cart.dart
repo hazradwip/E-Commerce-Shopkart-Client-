@@ -58,7 +58,7 @@ class _CardTabState extends State<CartTab> {
                             fontSize: 25, fontWeight: FontWeight.bold),
                       ),
                       SizedBox(
-                        // ignore: deprecated_member_use
+                        
                         child: RaisedButton(
                           child: const Text('Check Out'),
                           color: Colors.black,

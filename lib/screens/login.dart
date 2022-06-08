@@ -42,7 +42,7 @@ class _LogInState extends State<LogIn> {
                   Container(
                       alignment: Alignment.center,
                       padding: const EdgeInsets.all(20),
-                      child: Text('E-Kart',
+                      child: Text('ShopKart',
                           style: GoogleFonts.lora(
                             textStyle: const TextStyle(
                                 color: Colors.black,

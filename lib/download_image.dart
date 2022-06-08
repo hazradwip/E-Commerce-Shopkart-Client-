@@ -43,7 +43,7 @@ class _DownloadImageState extends State<DownloadImage> {
       File image=File(img!.path);
       Reference str = FirebaseStorage.instance.ref();
       str.child('p1').putFile(image);
-    } catch (e){}
+    } catch (e){notifier(e);}
     String x=getData("p1").toString();
     storeData( 'High', '1999', 'Killer Black Jeans','Mens Jeans','5', x);
 
